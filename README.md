@@ -36,8 +36,17 @@ Lipo / 3セル / -[v] / -[mAh] / -
 - 加速度 : -[m/s^2]
 
 ## 機械設計
+### CAD
+![RoboTrace_2023_aseembly](https://github.com/Yuto2511/RoboTrace_2023/assets/83150974/e4d29c2c-2e9d-4079-8f14-94e62b698d20)
 
-### ギア
+### ギヤ
+- 駆動輪
+  - ピニオン : M0.3, Z
+  - 動輪ギヤ : M0.3, Z63
+- センサステア
+  - ピニオン : M0.5, Z10
+  - [クラウンギヤ](https://www.tamiya.com/japan/products/15462/index.html) : M0.5, Z20
+  - [スパーギヤ](https://www.tamiya.com/japan/products/15434/index.html) : M0.5, Z26
 
 ## 回路設計
 
