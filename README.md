@@ -39,14 +39,26 @@ Lipo / 3セル / -[v] / -[mAh] / -
 ### CAD
 ![RoboTrace_2023_aseembly](https://github.com/Yuto2511/RoboTrace_2023/assets/83150974/e4d29c2c-2e9d-4079-8f14-94e62b698d20)
 
+### モータ
+- 駆動輪 : DCX10L
+- センサステア : DCX8M
+- 吸引 : 8520モータ
+
 ### ギヤ
 - 駆動輪
-  - ピニオン : M0.3, Z
+  - ピニオン : M0.3, Z-
   - 動輪ギヤ : M0.3, Z63
 - センサステア
   - ピニオン : M0.5, Z10
   - [クラウンギヤ](https://www.tamiya.com/japan/products/15462/index.html) : M0.5, Z20
   - [スパーギヤ](https://www.tamiya.com/japan/products/15434/index.html) : M0.5, Z26
+
+### その他
+- フレーム : カーボン板(1mm)
+- プリントパーツ : Onyx(Mark Two), -(光造形)
+- シャフト : アルミ丸棒(4mm), ステンレス丸棒(3mm)
+- ベアリング : 内径4mm外形7mm, 内径3mm外形6mm
+- ねじ : M2, M2.6
 
 ## 回路設計
 
