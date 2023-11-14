@@ -62,20 +62,37 @@ Lipo / 3セル / -[v] / -[mAh] / -
 
 ## 回路設計
 
+### 回路図
+
 ### パーツ一覧
 
 #### CPU
-- CPU : [STM32F405RGT6](https://www.stmcu.jp/stm32/stm32f4/stm32f405415/12229/)
+- [STM32F405RGT6](https://www.stmcu.jp/stm32/stm32f4/stm32f405415/12229/)
+- [クロック-DSC6021CI2](https://www.digikey.jp/ja/products/detail/microchip-technology/DSC6021CI2A-009S/8639204)
 
 #### 電源
+- [DC/DC-LXDC55FAAA-203](https://akizukidenshi.com/catalog/g/gM-09577/)
+- [積層セラミックコンデンサ-4.7uF-50V](https://akizukidenshi.com/catalog/g/gP-15634/)
+- [アルミ電解コンデンサ-100uF-16V](https://akizukidenshi.com/catalog/g/gP-17422/)
+- [積層セラミックコンデンサ-2.2uF-35V](https://akizukidenshi.com/catalog/g/gP-16077/)
+- [レギュレタ-NJU7223DL1](https://akizukidenshi.com/catalog/g/gI-03705/)
+- [ショットキーバリアダイオード-MA10EB045](https://www.digikey.jp/ja/products/detail/kyocera-avx/MA10EB045/16580541?s=N4IgTCBcDaILYEMCMAGApgIxQFgKwgF0BfIA)
+- [スライドスイッチ-1回路2接点](https://akizukidenshi.com/catalog/g/gP-13989/)
 
 #### モータ
+- [モータドライバ-DRV8874](https://www.mouser.jp/ProductDetail/Texas-Instruments/DRV8874QPWPRQ1?qs=mAH9sUMRCttZUT1myh3Itg%3D%3D)
+- [モータドライバ-DRV8876](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8876PWPR/10270191)
+- [積層セラミックコンデンサ-22pF-50V](https://akizukidenshi.com/catalog/g/gP-11626/)
+- [アルミ電解コンデンサ-100uF-16V](https://akizukidenshi.com/catalog/g/gP-17422/)
+- [FFCコネクタ-12極-0.5ピッチ](https://www.digikey.jp/ja/products/detail/molex/0527451297/3044841?s=N4IgTCBcDaILIHsA2BTAHgAgKxgOwBYsBaARjAE5cQBdAXyA)
+- コネクタ-10極-1.27ピッチ
+- [NchMOSFET-30V-5.7A](https://akizukidenshi.com/catalog/g/gI-14653/)
+- [ショットキーバリアダイオード-40V-2A](https://akizukidenshi.com/catalog/g/gI-02073/)
+- [積層セラミックコンデンサ-10uF-35V](https://akizukidenshi.com/catalog/g/gP-13336/)
 
 #### センサ
 
-#### その他
-
-### 回路図
+#### その他・共通
 
 ## プログラム
 
