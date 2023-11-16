@@ -63,6 +63,7 @@ Lipo / 3セル / -[v] / -[mAh] / -
 ## 回路設計
 
 ### 回路図
+[回路図](https://github.com/Yuto2511/RoboTrace_2023/blob/main/RoboTrace_2023.pdf)
 
 ### パーツ一覧
 
