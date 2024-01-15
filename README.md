@@ -68,45 +68,47 @@ Lipo / 3セル / -[v] / -[mAh] / -
 ### パーツ一覧
 
 #### CPU
-- [STM32F405RGT6](https://www.stmcu.jp/stm32/stm32f4/stm32f405415/12229/)
-- [クロック-DSC6021CI2](https://www.digikey.jp/ja/products/detail/microchip-technology/DSC6021CI2A-009S/8639204)
+- [STM32F405RGT6](https://www.stmcu.jp/stm32/stm32f4/stm32f405415/12229/) o
+- [クロック-DSC6021CI2](https://www.digikey.jp/ja/products/detail/microchip-technology/DSC6021CI2A-009S/8639204) o
 
 #### 電源
-- XT60コネクタ-オス-XT60U-M
-- IL-Gコネクタ-2極-2.5ピッチ-IL-G-2P-S3T2-SA
-- [PchMOSFET-55V-18A](https://akizukidenshi.com/catalog/g/gI-06021/)
-- [DC/DC-LXDC55FAAA-203](https://akizukidenshi.com/catalog/g/gM-09577/)
-- [積層セラミックコンデンサ-4.7uF-50V](https://akizukidenshi.com/catalog/g/gP-15634/)
-- [アルミ電解コンデンサ-100uF-16V](https://akizukidenshi.com/catalog/g/gP-17422/)
-- [積層セラミックコンデンサ-2.2uF-35V](https://akizukidenshi.com/catalog/g/gP-16077/)
-- [積層セラミックコンデンサ-10uF-35V](https://akizukidenshi.com/catalog/g/gP-13336/)
-- [レギュレタ-NJU7223DL1](https://akizukidenshi.com/catalog/g/gI-03705/)
-- [ショットキーバリアダイオード-MA10EB045](https://www.digikey.jp/ja/products/detail/kyocera-avx/MA10EB045/16580541?s=N4IgTCBcDaILYEMCMAGApgIxQFgKwgF0BfIA)
-- [スライドスイッチ-1回路2接点](https://akizukidenshi.com/catalog/g/gP-13989/)
-- [緑色チップLED-OSTG1608C1A](https://akizukidenshi.com/catalog/g/gI-06417/)
+- XT60コネクタ-オス-XT60U-M o
+- IL-Gコネクタ-2極-2.5ピッチ-IL-G-2P-S3T2-SA o
+- [PchMOSFET-55V-18A](https://akizukidenshi.com/catalog/g/gI-06021/) x
+- [DC/DC-LXDC55FAAA-203](https://akizukidenshi.com/catalog/g/gM-09577/) o
+- [積層セラミックコンデンサ-4.7uF-50V](https://akizukidenshi.com/catalog/g/gP-15634/) o
+- [アルミ電解コンデンサ-100uF-16V](https://akizukidenshi.com/catalog/g/gP-17422/) o
+- [積層セラミックコンデンサ-2.2uF-35V](https://akizukidenshi.com/catalog/g/gP-16077/) o
+- [積層セラミックコンデンサ-10uF-35V](https://akizukidenshi.com/catalog/g/gP-13336/) x
+- [レギュレタ-NJU7223DL1](https://akizukidenshi.com/catalog/g/gI-03705/) x
+- [ショットキーバリアダイオード-MA10EB045](https://www.digikey.jp/ja/products/detail/kyocera-avx/MA10EB045/16580541?s=N4IgTCBcDaILYEMCMAGApgIxQFgKwgF0BfIA) o
+- [スライドスイッチ-1回路2接点](https://akizukidenshi.com/catalog/g/gP-13989/) x
+- [緑色チップLED-OSTG1608C1A](https://akizukidenshi.com/catalog/g/gI-06417/) o
 
 #### モータ
-- [モータドライバ-DRV8874](https://www.mouser.jp/ProductDetail/Texas-Instruments/DRV8874QPWPRQ1?qs=mAH9sUMRCttZUT1myh3Itg%3D%3D)
-- [モータドライバ-DRV8876](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8876PWPR/10270191)
-- [積層セラミックコンデンサ-22pF-50V](https://akizukidenshi.com/catalog/g/gP-11626/)
-- [アルミ電解コンデンサ-100uF-16V](https://akizukidenshi.com/catalog/g/gP-17422/)
-- PAコネクタ-2極
-- [FFCコネクタ-12極-0.5ピッチ](https://www.digikey.jp/ja/products/detail/molex/0527451297/3044841?s=N4IgTCBcDaILIHsA2BTAHgAgKxgOwBYsBaARjAE5cQBdAXyA)
-- FTSHコネクタ-10極-1.27ピッチ-FTSH-105-01-L-D-K
-- [NchMOSFET-30V-5.7A](https://akizukidenshi.com/catalog/g/gI-14653/)
-- [ショットキーバリアダイオード-40V-2A](https://akizukidenshi.com/catalog/g/gI-02073/)
-- [積層セラミックコンデンサ-10uF-35V](https://akizukidenshi.com/catalog/g/gP-13336/)
+- [モータドライバ-DRV8874](https://www.mouser.jp/ProductDetail/Texas-Instruments/DRV8874QPWPRQ1?qs=mAH9sUMRCttZUT1myh3Itg%3D%3D) o
+- [モータドライバ-DRV8876](https://www.digikey.jp/ja/products/detail/texas-instruments/DRV8876PWPR/10270191) o
+- [積層セラミックコンデンサ-22pF-50V](https://akizukidenshi.com/catalog/g/gP-11626/) o
+- [アルミ電解コンデンサ-100uF-16V](https://akizukidenshi.com/catalog/g/gP-17422/) o
+- PAコネクタ-2極 o
+- [FFCコネクタ-12極-0.5ピッチ](https://www.digikey.jp/ja/products/detail/molex/0527451297/3044841?s=N4IgTCBcDaILIHsA2BTAHgAgKxgOwBYsBaARjAE5cQBdAXyA) o
+- FTSHコネクタ-10極-1.27ピッチ-FTSH-105-01-L-D-K o
+- [NchMOSFET-30V-5.7A](https://akizukidenshi.com/catalog/g/gI-14653/) x
+- [ショットキーバリアダイオード-40V-2A](https://akizukidenshi.com/catalog/g/gI-02073/) x
+- [積層セラミックコンデンサ-10uF-35V](https://akizukidenshi.com/catalog/g/gP-13336/) x
 
 #### センサ
-- [IMU-ICM20649](https://www.digikey.jp/ja/products/detail/tdk-invensense/ICM-20649/8540792)
-- [フォトトランジスタ-TEMT7100X01](https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/TEMT7100X01/4743803)
-- [赤外線LED-SIR19-21/TR8](https://www.digikey.jp/ja/products/detail/everlight-electronics-co-ltd/SIR19-21C-TR8/2676159)
-- [光変調型フォトIC-S7136](https://akizukidenshi.com/catalog/g/gI-02425/)
+- [IMU-ICM20649](https://www.digikey.jp/ja/products/detail/tdk-invensense/ICM-20649/8540792) o
+- [フォトトランジスタ-TEMT7100X01](https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/TEMT7100X01/4743803) o
+- [赤外線LED-SIR19-21/TR8](https://www.digikey.jp/ja/products/detail/everlight-electronics-co-ltd/SIR19-21C-TR8/2676159) o
+- [光変調型フォトIC-S7136](https://akizukidenshi.com/catalog/g/gI-02425/) o
+- FFCケーブル-8極-0.5ピッチ x  
+- FFCコネクタ-8極-0.5ピッチ x  
 
 #### その他・共通
-- [白色チップLED-OSWT1608](https://akizukidenshi.com/catalog/g/gI-03986/)
-- [表面実装タクトスイッチ-TVAF06-A020B-R](https://akizukidenshi.com/catalog/g/gP-14888/)
-- SHコネクタ-3~6極-1.0ピッチ
+- [白色チップLED-OSWT1608](https://akizukidenshi.com/catalog/g/gI-03986/) o
+- [表面実装タクトスイッチ-TVAF06-A020B-R](https://akizukidenshi.com/catalog/g/gP-14888/) o
+- SHコネクタ-3~6極-1.0ピッチ o
 
 ## プログラム
 
