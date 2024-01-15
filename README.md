@@ -102,8 +102,8 @@ Lipo / 3セル / -[v] / -[mAh] / -
 - [フォトトランジスタ-TEMT7100X01](https://www.digikey.jp/ja/products/detail/vishay-semiconductor-opto-division/TEMT7100X01/4743803) o
 - [赤外線LED-SIR19-21/TR8](https://www.digikey.jp/ja/products/detail/everlight-electronics-co-ltd/SIR19-21C-TR8/2676159) o
 - [光変調型フォトIC-S7136](https://akizukidenshi.com/catalog/g/gI-02425/) o
-- FFCケーブル-8極-0.5ピッチ x  
-- FFCコネクタ-8極-0.5ピッチ x  
+- [FFCケーブル-8極-0.5ピッチ](https://www.digikey.jp/ja/products/detail/molex/0151660081/3280963) x  
+- [FFCコネクタ-8極-0.5ピッチ](https://www.digikey.jp/ja/products/detail/molex/5051100892/5700456) x  
 
 #### その他・共通
 - [白色チップLED-OSWT1608](https://akizukidenshi.com/catalog/g/gI-03986/) o
