@@ -1,0 +1,2 @@
+led.c:11:6:led_num	16	static
+led.c:32:6:led_flg	16	static

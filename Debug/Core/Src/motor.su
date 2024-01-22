@@ -1,0 +1,7 @@
+motor.c:13:6:MotorStart	8	static
+motor.c:24:6:motor_R	32	static
+motor.c:39:6:motor_L	32	static
+motor.c:54:6:motor_S	32	static
+motor.c:72:8:Speed_R	32	static
+motor.c:80:8:Speed_L	32	static
+motor.c:88:8:Degree_S	32	static

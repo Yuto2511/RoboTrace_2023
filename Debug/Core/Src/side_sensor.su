@@ -1,0 +1,2 @@
+side_sensor.c:10:6:stop_init	4	static
+side_sensor.c:18:5:start_stop	8	static

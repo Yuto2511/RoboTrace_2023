@@ -1,0 +1,4 @@
+wrapper.c:10:6:init	8	static
+wrapper.c:22:6:main_loop	40	static
+wrapper.c:159:6:PeriodElapsed_005ms	8	static
+wrapper.c:165:6:PeriodElapsed_05ms	8	static

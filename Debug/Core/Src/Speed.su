@@ -1,0 +1,4 @@
+Speed.c:11:8:SpeedContorol_R	56	static
+Speed.c:25:8:SpeedContorol_L	56	static
+Speed.c:39:8:banquet_art	64	static
+Speed.c:55:8:StearingContorol	56	static

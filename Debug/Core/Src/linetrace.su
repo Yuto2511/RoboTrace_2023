@@ -1,0 +1,2 @@
+linetrace.c:10:6:Trace_Init	8	static
+linetrace.c:16:6:LineTrace	32	static

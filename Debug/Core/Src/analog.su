@@ -1,0 +1,4 @@
+analog.c:10:6:ADCStart	8	static
+analog.c:17:6:adc_getValues	4	static
+analog.c:29:6:updateValues	32	static
+analog.c:74:6:Sens_Calibration	4	static

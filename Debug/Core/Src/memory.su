@@ -1,0 +1,5 @@
+memory.c:10:8:route_calculation	40	static
+memory.c:40:6:curvature_calucutation	4	static
+memory.c:46:6:eraseFlash	40	static
+memory.c:61:6:writeFlash	40	static
+memory.c:76:6:loadFlash	24	static
