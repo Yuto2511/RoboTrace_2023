@@ -11,7 +11,7 @@
 double SpeedContorol_R(double Speed_Ref)
 {
 	double PGain = 500.0, IGain = 0.0, duty;
-	double delta_speed = Speed_Ref + SR;
+	double delta_speed = Speed_Ref - SR;
 
 	speedR_I_buff += delta_speed * TIM05 * 0.001;
 	if(speedR_I_buff >= 1000000) speedR_I_buff = 1000000;

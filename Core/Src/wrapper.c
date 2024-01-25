@@ -21,7 +21,80 @@ void init()
 
 void main_loop()
 {
+	///*
+	// debug mode
+	while(1){
+		if( switch_get() == SW_1 ){
+			Mode_Flag--;
+			if(Mode_Flag < 0) Mode_Flag = 5;
+		}
+		else if( switch_get() == SW_2 ){
+			Mode_Flag++;
+			if(Mode_Flag > 5) Mode_Flag = 0;
+		}
+		else if( switch_get() == SW_3 ) break;
+		led_num(Mode_Flag);
 
+		/*
+		switch(Mode_Flag){
+			case 0:
+				// ADC & ENCODER
+				led_num(0);
+				Sens_Calibration();
+				printf("ADC_L -> %f,	ADC_R -> %f,	DEG_S -> %f,	ENC_L - > %f,	ENC_R -> %f\r\n",
+						Line_Calib_L, Line_Calib_R, Degree_S(), SL, SR);
+				break;
+			case 1:
+				// MOTOR
+				led_num(1);
+				motor_R(80);
+				motor_L(80);
+				motor_S(50);
+				break;
+			case 2:
+				// STEAR CONTROL
+				led_num(2);
+				// To do Speed_input_X = 0
+				LineTrace_Flag = 1;
+				break;
+			case 3:
+				// SPEED CONTROL
+				led_num(3);
+				// To do Speed Ref = 0
+				LineTrace_Flag = 1;
+				break;
+			case 4:
+				// SIDE_SENSOR
+				led_num(4);
+				// To do HAL_Delay(0.5)
+				printf("SIDE_SENSOR -> %d\r\n", start_stop());
+				break;
+			case 5:
+				// IMU
+				led_num(5);
+				printf("Z_GYRO -> %f\r\n", (z_gyro() / 16.4) * M_PI / 180);
+				break;
+			default:
+				break;
+		}
+		*/
+
+		HAL_Delay(100);
+
+	}
+
+	led_num(1);
+	HAL_Delay(500);
+	led_num(3);
+	HAL_Delay(500);
+	led_num(7);
+	HAL_Delay(500);
+	led_num(15);
+	HAL_Delay(500);
+	// debug mode
+	//*/
+
+	/*
 	while(1){
 		LineTrace_Flag = 0;
 		if( switch_get() == SW_1 ){
@@ -37,6 +110,7 @@ void main_loop()
 		switch(Mode_Flag){
 			case 0:
 				led_num(0);
+				Sens_Calibration();
 				printf("ADC_L -> %f,	ADC_R -> %f,	DEG_S -> %f\r\n", Line_Calib_L, Line_Calib_R, Degree_S());
 				break;
 			case 1:
@@ -82,6 +156,13 @@ void main_loop()
 		HAL_Delay(100);
 	}
 
+	led_num(1);
+	HAL_Delay(500);
+	led_num(3);
+	HAL_Delay(500);
+	led_num(7);
+	HAL_Delay(500);
+	led_num(15);
 	HAL_Delay(500);
 
 	//LineTrace
@@ -152,7 +233,15 @@ void main_loop()
 		HAL_Delay(0.5);
 	}
 
+	led_num(15);
 	HAL_Delay(500);
+	led_num(7);
+	HAL_Delay(500);
+	led_num(3);
+	HAL_Delay(500);
+	led_num(1);
+	HAL_Delay(500);
+	//*/
 
 }
 
@@ -166,6 +255,6 @@ void PeriodElapsed_05ms()
 {
 	updateValues();
 	LineTrace( LineTrace_Flag , Memory_Flag);
-	SR = Speed_R();
+	SR = -Speed_R();
 	SL = Speed_L();
 }

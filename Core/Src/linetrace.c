@@ -29,12 +29,14 @@ void LineTrace(uint8_t state, uint8_t memory)
 		case 0:
 			motor_R(0);
 			motor_L(0);
+			motor_S(0);
 			Speed_Ref = 0;
 			break;
 		case 1:
 			motor_R( Speed_input_R );
 			motor_L( Speed_input_L );
 			motor_S( Stearing_input );
+			//Speed_Ref = 0;
 			Speed_Ref += 0.002;
 			if(Speed_Ref >= MIN_SPEED) Speed_Ref = MIN_SPEED;
 			break;

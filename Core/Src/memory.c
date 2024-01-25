@@ -10,8 +10,8 @@
 double route_calculation(uint8_t flag)
 {
 	double median, cal_speed, speed_1, speed_2;
-	milage += ((-SR + SL) / 2) * TIM05; // mm
-	cal_speed = (-SR + SL) / 2;
+	milage += ((SR + SL) / 2) * TIM05; // mm
+	cal_speed = (SR + SL) / 2;
 	gyro = (z_gyro() / 16.4) * M_PI / 180;
 	scoretime += TIM05;
 
@@ -23,7 +23,7 @@ double route_calculation(uint8_t flag)
 	 case 1:
 		 if(milage / 50 >= data_num){
 			 write_data_sector11.Omega[data_num] = gyro * 1000;
-			 write_data_sector11.speed_R[data_num] = -SR * 1000;
+			 write_data_sector11.speed_R[data_num] = SR * 1000;
 			 write_data_sector11.speed_R[data_num] = SL * 1000;
 			 write_data_sector10.time[data_num] = scoretime;
 			 data_num++;

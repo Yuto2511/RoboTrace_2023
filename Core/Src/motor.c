@@ -88,7 +88,9 @@ double Speed_L()
 double Degree_S()
 {
 	int initial_degree_value = 32767;
-	int Encoder = (TIM4 -> CNT) - initial_degree_value;
+	//int Encoder = (TIM4 -> CNT) - initial_degree_value;
+	int Encoder = TIM4 -> CNT;
 	double degree = 360 * (Encoder / 65535);
-	return degree;
+	//return degree;
+	return (double)Encoder;
 }
