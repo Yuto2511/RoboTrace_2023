@@ -1097,11 +1097,12 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
+	// TIM6
 	if (htim->Instance == TIM6)
 	{
 		PeriodElapsed_005ms();
 	}
-	//TIM5
+	// TIM7
 	if (htim->Instance == TIM7)
 	{
 		PeriodElapsed_05ms();

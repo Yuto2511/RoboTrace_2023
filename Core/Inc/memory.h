@@ -22,6 +22,10 @@
 
 double milage, scoretime, gyro;
 int data_num;
+uint16_t read_curvature[CM_COUNT];
+uint32_t read_milage[CM_COUNT];
+uint16_t section_curvature[SECTION];
+uint32_t section_milage[SECTION];
 
 double route_calculation(uint8_t flag);
 void curvature_calucutation();
@@ -33,8 +37,8 @@ void writeFlash(uint32_t address, uint8_t *data, uint32_t size, uint8_t sector);
 // load Data from Flash
 void loadFlash(uint32_t address, uint8_t *data, uint32_t size);
 void *memcpy(
-		void * restrict s1,
-		const void * restrict s2,
+		void * restrict buf1,
+		const void * restrict buf2,
 		size_t n
 );
 

@@ -36,7 +36,7 @@ void LineTrace(uint8_t state, uint8_t memory)
 			motor_L( Speed_input_L );
 			motor_S( Stearing_input );
 			Speed_Ref += 0.002;
-			if(Speed_Ref >= 1.8) Speed_Ref = 1.8;
+			if(Speed_Ref >= MIN_SPEED) Speed_Ref = MIN_SPEED;
 			break;
 		case 2:
 			motor_R( Speed_input_R );

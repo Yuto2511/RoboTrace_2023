@@ -36,7 +36,8 @@ Core/Src/linetrace.o: ../Core/Src/linetrace.c ../Core/Inc/linetrace.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Core/Inc/macro.h ../Core/Inc/accelerometer.h ../Core/Inc/ICM_20649.h \
- ../Core/Inc/main.h ../Core/Inc/analog.h
+ ../Core/Inc/main.h ../Core/Inc/analog.h ../Core/Inc/memory.h \
+ ../Core/Inc/led.h
 
 ../Core/Inc/linetrace.h:
 
@@ -123,3 +124,7 @@ Core/Src/linetrace.o: ../Core/Src/linetrace.c ../Core/Inc/linetrace.h \
 ../Core/Inc/main.h:
 
 ../Core/Inc/analog.h:
+
+../Core/Inc/memory.h:
+
+../Core/Inc/led.h:

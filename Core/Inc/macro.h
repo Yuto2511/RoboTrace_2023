@@ -15,7 +15,7 @@
 #define TIM05 0.5		//ms
 #define TIM005 0.05 	//ms
 
-#define TIRE 12.65
+#define TIRE 12
 
 #define ADC_SENS 6
 
@@ -24,6 +24,7 @@
 #define ACC 6
 
 #define CM_COUNT 1200
+#define SECTION 600
 
 double Max_Speed;
 double Speed_Ref;

@@ -33,7 +33,7 @@ uint8_t Mode_Flag;
 
 void init();
 void main_loop();
-void PeriodElapsed_005mss();
+void PeriodElapsed_005ms();
 void PeriodElapsed_05ms();
 
 #endif /* INC_WRAPPER_H_ */

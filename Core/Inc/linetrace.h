@@ -15,6 +15,7 @@
 #include "motor.h"
 #include "analog.h"
 #include "macro.h"
+#include "memory.h"
 
 #define TREAD 50
 
